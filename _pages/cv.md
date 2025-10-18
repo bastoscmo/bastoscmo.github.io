@@ -9,37 +9,44 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Formação
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Doutorado em Física**, Universidade de São Paulo (USP), 2019 
+* **Mestrado em Física**, Universidade de São Paulo (USP), 2015 
+* **Bacharelado em Física**, Universidade Federal de São Carlos (UFSCAR), 2012 
 
-Work experience
+Experiência Profissional
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **2024 - Atual**: Pesquisador de Pós-Doutorado 
+    * Instituto de Física, Universidade de Brasília (UnB) 
+    * Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **2024 - Atual**: Pesquisador Colaborador 
+    * Centro Internacional de Física, Universidade de Brasília (UnB) 
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
+* **Fev/2015 - Dez/2019**: Pós Graduação (Doutorado) 
+    * Instituto de Física de São Carlos, Universidade de São Paulo (USP) 
+    * Atividades: Pesquisa e desenvolvimento em propriedades estruturais, energéticas e eletrônicas de materiais 2D.
+    * Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)
+
+* **Jul/2012 - Fev/2015**: Pós Graduação (Mestrado) 
+    * Instituto de Física de São Carlos, Universidade de São Paulo (USP)=
+    * Atividades: Pesquisa e desenvolvimento no estudo das propriedades eletrônicas de semicondutores através dos métodos k.p e teoria do funcional da densidade[cite: 78, 80].
+    * Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
+
+* **2010 - 2011**: Aluno de Graduação do Bacharelado em Física.
+    * Universidade Federal de São Carlos (UFSCAR).
+
+Habilidades
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Física da Matéria Condensada** 
+* **Simulações Computacionais de Materiais** 
+    * Métodos *ab initio*: Teoria do Funcional da Densidade (DFT) 
+    * Métodos de massa efetiva: Teoria k.p 
+* **Caracterização de Novos Materiais para Aplicações Tecnológicas** 
+    * Materiais semicondutores e bidimensionais (2D) 
+    * Dicalcogenetos de metais de transição (TMDs) 
+    * Alótropos de carbono, perovskitas e células solares 
 
 Publications
 ======
