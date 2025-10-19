@@ -31,7 +31,7 @@ Experiência Profissional
 
 * **Jul/2012 - Fev/2015**: Pós Graduação (Mestrado) 
     * Instituto de Física de São Carlos, Universidade de São Paulo (USP)=
-    * Atividades: Pesquisa e desenvolvimento no estudo das propriedades eletrônicas de semicondutores através dos métodos k.p e teoria do funcional da densidade[cite: 78, 80].
+    * Atividades: Pesquisa e desenvolvimento no estudo das propriedades eletrônicas de semicondutores através dos métodos k.p e teoria do funcional da densidade.
     * Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
 
 * **2010 - 2011**: Aluno de Graduação do Bacharelado em Física.
@@ -69,3 +69,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+
