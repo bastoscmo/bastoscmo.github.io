@@ -4,11 +4,9 @@ permalink: /
 author_profile: true
 ---
 
-# Welcome to my digital space :wave:
+I am **Carlos Maciel de Oliveira Bastos**, physicist and researcher at the International Center of Physics at the University of Brasília (UnB).
 
-I am **Carlos Maciel de Oliveira Bastos**, a Materials Computational Physicist and researcher at the International Center of Physics at the University of Brasília (UnB).
-
-My passion is investigating the universe hidden within materials. I use fundamental physics :atom_symbol: and the power of high-performance computing :computer: to simulate the behavior of atoms and electrons, seeking to predict and discover new properties before a material is even synthesized in a lab.
+I use fundamental physics :atom_symbol: and the power of high-performance computing :computer: to simulate the behavior of atoms and electrons, seeking to predict and discover new properties before a material is even synthesized in a lab.
 
 Through first-principles methods (like Density Functional Theory - DFT) and atomistic simulations, my work aims to accelerate the discovery of innovative materials :microscope: to solve complex challenges—whether in the search for new energy sources, the development of more efficient electronics, or the creation of more effective catalysts.
 

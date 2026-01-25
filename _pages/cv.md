@@ -9,44 +9,45 @@ redirect_from:
 
 {% include base_path %}
 
-Formação
+Education
 ======
-* **Doutorado em Física**, Universidade de São Paulo (USP), 2019
-* **Mestrado em Física**, Universidade de São Paulo (USP), 2015
-* **Bacharelado em Física**, Universidade Federal de São Carlos (UFSCAR), 2012
+* **Ph.D. in Physics**, University of São Paulo (USP), 2019
+* **M.Sc. in Physics**, University of São Paulo (USP), 2015
+* **B.Sc. in Physics**, Federal University of São Carlos (UFSCar), 2012
 
-Experiência Profissional
+Professional Experience
 ======
-* **2024 - Atual**: Pesquisador de Pós-Doutorado
-    * Instituto de Física, Universidade de Brasília (UnB)
-    * Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)
+* **2024 - Present**: Postdoctoral Fellow
+  * Institute of Physics, University of Brasília (UnB)
+  * Fellow of the Coordination for the Improvement of Higher Education Personnel (CAPES)
 
-* **2024 - Atual**: Pesquisador Colaborador
-    * Centro Internacional de Física, Universidade de Brasília (UnB)
+* **2024 - Present**: Collaborative Researcher
+  * International Physics Center, University of Brasília (UnB)
 
-* **2015 - 2019**: Pós Graduação (Doutorado)
-    * Instituto de Física de São Carlos, Universidade de São Paulo (USP)
-    * Atividades: Pesquisa e desenvolvimento em propriedades estruturais, energéticas e eletrônicas de materiais 2D.
-    * Bolsista da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)
+* **2015 - 2019**: Graduate Researcher (Ph.D.)
+  * Institute of Physics of São Carlos, University of São Paulo (USP)
+  * Activities: Research and development on structural, energetic, and electronic properties of 2D materials.
+  * Fellow of the Coordination for the Improvement of Higher Education Personnel (CAPES)
 
-* **2012 - 2015**: Pós Graduação (Mestrado)
-    * Instituto de Física de São Carlos, Universidade de São Paulo (USP)=
-    * Atividades: Pesquisa e desenvolvimento no estudo das propriedades eletrônicas de semicondutores através dos métodos k.p e teoria do funcional da densidade.
-    * Bolsista do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq).
+* **2012 - 2015**: Graduate Researcher (M.Sc.)
+  * Institute of Physics of São Carlos, University of São Paulo (USP)
+  * Activities: Research and development on the study of electronic properties of semiconductors using k·p methods and Density Functional Theory (DFT).
+  * Fellow of the National Council for Scientific and Technological Development (CNPq)
 
-* **2006 - 2011**: Aluno de Graduação do Bacharelado em Física.
-    * Universidade Federal de São Carlos (UFSCAR).
+* **2006 - 2011**: Undergraduate Student (B.Sc.)
+  * Federal University of São Carlos (UFSCar)
 
-Habilidades
+Skills
 ======
-* **Física da Matéria Condensada**
-* **Simulações Computacionais de Materiais**
-    * Métodos *ab initio*: Teoria do Funcional da Densidade (DFT)
-    * Métodos de massa efetiva: Teoria k.p
-* **Caracterização de Novos Materiais para Aplicações Tecnológicas**
-    * Materiais semicondutores e bidimensionais (2D)
-    * Dicalcogenetos de metais de transição (TMDs)
-    * Alótropos de carbono, perovskitas e células solares
+* **Condensed Matter Physics**
+* **Computational Materials Simulation**
+  * *Ab initio* methods: Density Functional Theory (DFT)
+  * Effective mass methods: k·p Theory
+* **Characterization of New Materials for Technological Applications**
+  * Semiconductor and Two-Dimensional (2D) Materials
+  * Transition Metal Dichalcogenides (TMDs)
+  * Carbon Allotropes, Perovskites, and Solar Cells
+  
 
 Publications
 ======
@@ -66,6 +67,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
