@@ -17,6 +17,18 @@ bundle exec jekyll serve -l -H localhost   # serve at localhost:4000, live-reloa
 
 Changes to `_config.yml` require stopping and restarting Jekyll — it is not hot-reloaded.
 
+**Before pushing, verify with the real GitHub Pages build, not just `jekyll serve`/`jekyll build`.** GitHub's actual Pages builder runs `github-pages build` (from the `github-pages` gem), which force-activates every plugin bundled with `github-pages` (`jekyll-github-metadata`, `jekyll-seo-tag`, `jekyll-commonmark-ghpages`, etc.) regardless of what's listed in `_config.yml`'s `plugins:`. Plain `jekyll serve`/`jekyll build` only activates the explicitly-listed plugins and will happily succeed on something that fails for real on GitHub — this exact gap let a broken build sit undetected (and unpublished — GitHub Pages never picked up the change) through several pushes before it was caught. Reproduce it locally with:
+
+```bash
+JEKYLL_ENV=production bundle exec github-pages build
+```
+
+**After every push, check that the Pages build actually succeeded** — `git push` succeeding only means GitHub received the commit, not that it deployed. Check via `https://github.com/bastoscmo/bastoscmo.github.io/actions` (or the API: `curl -s "https://api.github.com/repos/bastoscmo/bastoscmo.github.io/actions/runs?per_page=3"`, no auth needed for a public repo) for a `pages build and deployment` run with `"conclusion": "success"` against your commit SHA. Don't assume a successful `git push` means the live site updated.
+
+### Known gotcha: root-level Markdown files without front matter get Liquid-rendered
+
+A loose `*.md` file at the repo root with no `---` front matter (like `CLAUDE.md`) still gets picked up and Liquid-rendered by the real `github-pages build` pipeline (though not by plain `jekyll build`, which is part of why this went unnoticed locally). If that file quotes literal `{% ... %}` Liquid syntax as a documentation example — e.g. `` `{% for post in site.publications reversed %}` `` — the parser tries to treat it as a real tag and throws `Liquid syntax error: 'for' tag was never closed`, and the **entire site fails to build** (this actually happened with this exact file). `CLAUDE.md` is now in `_config.yml`'s `exclude:` list to prevent this. If you add another root-level `.md` file (or stop excluding this one), either give it real front matter, avoid quoting bare `{% %}`/`{{ }}` syntax, or add it to `exclude:` too.
+
 ### Docker alternative
 
 ```bash
