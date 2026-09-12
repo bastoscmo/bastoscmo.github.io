@@ -14,8 +14,8 @@ from geopy.exc import GeocoderTimedOut
 # Set the default timeout, in seconds
 TIMEOUT = 5
 
-# Collect the Markdown files
-g = glob.glob("_talks/*.md")
+# Collect the Markdown files (recursive: talks live in per-year subdirectories)
+g = glob.glob("_talks/**/*.md", recursive=True)
 
 # Prepare to geolocate
 geocoder = Nominatim(user_agent="academicpages.github.io")
@@ -51,6 +51,10 @@ for file in g:
     except Exception as ex:
         print(f"An unhandled exception occurred while processing input {location} with message {ex}")
 
-# Save the map
-m = getorg.orgmap.create_map_obj()
-getorg.orgmap.output_html_cluster_map(location_dict, folder_name="talkmap", hashed_usernames=False)
+# Save the map data only. Deliberately NOT calling
+# getorg.orgmap.output_html_cluster_map() here: it also (re)writes talkmap/map.html
+# and talkmap/leaflet_dist/* from templates bundled inside the getorg package,
+# which are pinned to a 2012-2013 Leaflet.markercluster incompatible with the
+# modern Leaflet loaded in talkmap/map.html (markers silently failed to render).
+# talkmap/map.html and talkmap/leaflet_dist/ are hand-maintained instead.
+getorg.orgmap.location_dict_to_jsvar(location_dict, "talkmap/org-locations.js", hashed_usernames=False)

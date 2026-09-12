@@ -1,22 +1,17 @@
 var addressPoints = [
   [
-    "Talk 2 on Relevant Topic in Your Field<br />London School of Testing; London, UK",
-    51.4893335,
-    -0.14405508452768728
+    "A Complete Optoelectronic and Thermodynamic Characterization for MoWSe2 Alloy: A Data-Driven Workflow Approach<br />XXIII B-MRS Meeting; Salvador, Brazil",
+    -12.9822499,
+    -38.4812772
   ],
   [
-    "Tutorial 1 on Relevant Topic in Your Field<br />UC-Berkeley Institute for Testing Science; Berkeley, CA, USA",
-    37.8708393,
-    -122.272863
+    "Computational Materials Discovery: From Monolayer Noble Metals to Entangled Carbon Allotropes<br />Graduate Program in Nanoscience and Advanced Materials, UFABC; Santo Andr\u00e9, Brazil",
+    -23.6533509,
+    -46.5279039
   ],
   [
-    "Conference Proceeding talk 3 on Relevant Topic in Your Field<br />Testing Institute of America 2014 Annual Conference; Los Angeles, CA, USA",
-    34.0536909,
-    -118.242766
-  ],
-  [
-    "Talk 1 on Relevant Topic in Your Field<br />UC San Francisco, Department of Testing; San Francisco, CA, USA",
-    37.7792588,
-    -122.4193286
+    "Realistic multibands k.p from hybrid-DFT<br />2\u00b0 ICP Workshop on Quantum and Statistical Physics, University of Brasilia; Brasilia - DF, Brazil",
+    -15.8032581,
+    -47.8854767
   ]
 ];
