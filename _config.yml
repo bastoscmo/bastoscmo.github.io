@@ -12,7 +12,7 @@ site_theme               : "air" # Currently available options are "default", "a
 title                    : "Dr. Carlos Maciel de Oliveira Bastos"
 title_separator          : "-"
 name                     : &name "Dr. Carlos Maciel de Oliveira Bastos"
-description              : &description ""   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Computational materials physicist (UnB) using DFT and high-performance computing to predict new materials. Publications, talks, teaching, and open-source tools."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://bastoscmo.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -89,7 +89,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : "og-image.png" # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -140,8 +140,8 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "og-image.png" # Social media default site image
+og_description           : "Computational materials physicist (UnB) using DFT and high-performance computing to predict new materials. Publications, talks, teaching, and open-source tools." # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
