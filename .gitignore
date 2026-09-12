@@ -5,6 +5,9 @@ _site/
 # Ignore the directory for local files during development
 local/
 
+# Local-only AI assistant notes, not part of the published site
+CLAUDE.md
+
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
