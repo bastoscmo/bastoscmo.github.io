@@ -60,11 +60,6 @@ Next stable version 2.0.0 (may 2026)
 
 ---
 
-## What is new in 1.8.1 version?
-
-
----
-
 ## Installation and Requirements
 
 * **Python ≥ 3.9**

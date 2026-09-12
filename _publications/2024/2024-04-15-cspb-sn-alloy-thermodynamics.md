@@ -9,5 +9,5 @@ venue: 'Journal of Alloys and Compounds'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Luis Octavio de Araujo, et al. (2024). "Thermodynamic modeling and electronic properties of $CsPb_{1-x}Sn_{x}I_{3}$ as a polymorphic alloy." <i>Journal of Alloys and Compounds</i>. 992, 174485.'
+citation: 'Luis Octavio de Araujo, et al., "Thermodynamic modeling and electronic properties of $CsPb_{1-x}Sn_{x}I_{3}$ as a polymorphic alloy," <i>Journal of Alloys and Compounds</i> <b>992</b>, 174485 (2024).'
 ---

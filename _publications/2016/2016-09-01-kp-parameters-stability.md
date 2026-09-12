@@ -9,5 +9,5 @@ venue: 'Semiconductor Science and Technology'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Carlos M O Bastos, et al. (2016). "Stability and accuracy control of k·p parameters." <i>Semiconductor Science and Technology</i>. 31(10), 105002.'
+citation: 'Carlos M O Bastos, et al., "Stability and accuracy control of k·p parameters," <i>Semiconductor Science and Technology</i> <b>31</b>(10), 105002 (2016).'
 ---

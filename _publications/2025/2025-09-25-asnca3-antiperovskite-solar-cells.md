@@ -9,5 +9,5 @@ venue: 'The Journal of Physical Chemistry C'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Muhammad Irfan, et al. (2025). "Toward High-Efficiency Solar Cells: Insights into AsNCa3 Antiperovskite as an Active Layer." <i>The Journal of Physical Chemistry C</i>. https://doi.org/10.1021/acs.jpcc.5c05620.'
+citation: 'Muhammad Irfan, et al., "Toward High-Efficiency Solar Cells: Insights into AsNCa3 Antiperovskite as an Active Layer," <i>The Journal of Physical Chemistry C</i>, https://doi.org/10.1021/acs.jpcc.5c05620 (2025).'
 ---

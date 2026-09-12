@@ -9,5 +9,5 @@ venue: 'Journal of Alloys and Compounds'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Danilo Neves Silveira, et al. (2024). "Excitonic properties and solar harvesting performance of $Cs_{2}ZnY_{2}X_{2}$ as quasi-2D mixed-halide perovskites." <i>Journal of Alloys and Compounds</i>. 1007(176434).'
+citation: 'Danilo Neves Silveira, et al., "Excitonic properties and solar harvesting performance of $Cs_{2}ZnY_{2}X_{2}$ as quasi-2D mixed-halide perovskites," <i>Journal of Alloys and Compounds</i> <b>1007</b>(176434) (2024).'
 ---

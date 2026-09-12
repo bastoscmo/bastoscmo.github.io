@@ -9,5 +9,5 @@ venue: 'Scientific Reports'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: "Morais, W. O., Felix, J. P. C., da Silva, G. R., Bastos, C. M. O., Dias, A. C., Flores, E. M., ... & Piotrowski, M. J. (2025). Understanding stability and reactivity of transition metal single-atoms on graphene. <i>Scientific Reports</i>, <i>15</i>(1), 15496."
+citation: 'Morais, W. O., Felix, J. P. C., da Silva, G. R., Bastos, C. M. O., Dias, A. C., Flores, E. M., ... & Piotrowski, M. J., "Understanding stability and reactivity of transition metal single-atoms on graphene," <i>Scientific Reports</i> <b>15</b>(1), 15496 (2025).'
 ---

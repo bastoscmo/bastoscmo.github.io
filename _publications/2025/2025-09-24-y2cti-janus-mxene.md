@@ -9,5 +9,5 @@ venue: 'ACS Omega'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Bill D. Aparicio-Huacarpuma, et al. (2025). "Theoretical Prediction of 2D Y₂CTI (T = Br, Cl, F, H) Janus MXene Monolayers for Photovoltaic Applications." <i>ACS Omega</i>. 10, 45621-45632.'
+citation: 'Bill D. Aparicio-Huacarpuma, et al., "Theoretical Prediction of 2D Y₂CTI (T = Br, Cl, F, H) Janus MXene Monolayers for Photovoltaic Applications," <i>ACS Omega</i> <b>10</b>, 45621-45632 (2025).'
 ---

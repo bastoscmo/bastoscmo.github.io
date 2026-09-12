@@ -9,5 +9,5 @@ venue: 'ACS Omega'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: "Bastos, C. M. D. O., dos Santos, E. J. A., Alves, R. A. F., Dias, A. C., Junior, L. A. R., & Galvão, D. S. (2025). Entangled Interlocked Diamond-like (Diamondiynes) Lattices. ACS Omega, 10, 46065-46070."
+citation: 'Bastos, C. M. D. O., dos Santos, E. J. A., Alves, R. A. F., Dias, A. C., Junior, L. A. R., & Galvão, D. S., "Entangled Interlocked Diamond-like (Diamondiynes) Lattices," <i>ACS Omega</i> <b>10</b>, 46065-46070 (2025).'
 ---

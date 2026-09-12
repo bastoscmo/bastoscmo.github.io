@@ -9,5 +9,5 @@ venue: 'Scientific Reports'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Gabriel Reynald Da Silva, et al. (2025). "Workflow-driven catalytic modulation from single-atom catalysts to Au-alloy clusters on graphene." <i>Scientific Reports</i>. 15(1939).'
+citation: 'Gabriel Reynald Da Silva, et al., "Workflow-driven catalytic modulation from single-atom catalysts to Au-alloy clusters on graphene," <i>Scientific Reports</i> <b>15</b>(1939) (2025).'
 ---

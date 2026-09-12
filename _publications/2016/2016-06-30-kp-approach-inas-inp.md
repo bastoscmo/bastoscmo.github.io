@@ -9,5 +9,5 @@ venue: 'Physical Review B'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Paulo E. Faria Junior, et al. (2016). "Realistic multiband k·p approach from ab initio and spin-orbit coupling effects of InAs and InP in wurtzite phase." <i>Physical Review B</i>. 93(235204).'
+citation: 'Paulo E. Faria Junior, et al., "Realistic multiband k·p approach from ab initio and spin-orbit coupling effects of InAs and InP in wurtzite phase," <i>Physical Review B</i> <b>93</b>(235204) (2016).'
 ---

@@ -9,5 +9,5 @@ venue: 'ACS Applied Energy Materials'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Alexandre Cavalheiro Dias, et al. (2024). "Can 2D Carbon Allotropes Be Used as Photovoltaic Absorbers in Solar Harvesting Devices?." <i>ACS Applied Energy Materials</i>. 7, 8572-8582.'
+citation: 'Alexandre Cavalheiro Dias, et al., "Can 2D Carbon Allotropes Be Used as Photovoltaic Absorbers in Solar Harvesting Devices?," <i>ACS Applied Energy Materials</i> <b>7</b>, 8572-8582 (2024).'
 ---

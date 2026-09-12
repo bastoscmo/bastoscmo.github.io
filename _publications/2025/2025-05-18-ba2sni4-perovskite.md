@@ -9,5 +9,5 @@ venue: 'The Journal of Physical Chemistry C'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'J. F. Dalmedico, et al. (2025). "$BA_{2}SnI_{4}$ as a Promising 2D Ruddlesden-Popper Perovskite for Optoelectronic Applications." <i>The Journal of Physical Chemistry C</i>. 129, 9646-9655.'
+citation: 'J. F. Dalmedico, et al., "$BA_{2}SnI_{4}$ as a Promising 2D Ruddlesden-Popper Perovskite for Optoelectronic Applications," <i>The Journal of Physical Chemistry C</i> <b>129</b>, 9646-9655 (2025).'
 ---

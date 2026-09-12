@@ -9,5 +9,5 @@ venue: 'The Journal of Physical Chemistry C'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Rafael Besse, et al. (2018). "Size-Induced Phase Evolution of $MoSe_{2}$ Nanoflakes Revealed by Density Functional Theory." <i>The Journal of Physical Chemistry C</i>. 122, 20483-20488.'
+citation: 'Rafael Besse, et al., "Size-Induced Phase Evolution of $MoSe_{2}$ Nanoflakes Revealed by Density Functional Theory," <i>The Journal of Physical Chemistry C</i> <b>122</b>, 20483-20488 (2018).'
 ---

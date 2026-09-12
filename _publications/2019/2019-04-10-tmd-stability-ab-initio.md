@@ -9,5 +9,5 @@ venue: 'Physical Review Materials'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Carlos M. O. Bastos, Rafael Besse, Juarez L. F. Da Silva, and Guilherme M. Sipahi. (2019). "Ab initio investigation of structural stability and exfoliation energies in transition metal dichalcogenides based on Ti-, V-, and Mo-group elements." <i>Physical Review Materials</i>. 3(044002).'
+citation: 'Carlos M. O. Bastos, Rafael Besse, Juarez L. F. Da Silva, and Guilherme M. Sipahi, "Ab initio investigation of structural stability and exfoliation energies in transition metal dichalcogenides based on Ti-, V-, and Mo-group elements," <i>Physical Review Materials</i> <b>3</b>(044002) (2019).'
 ---

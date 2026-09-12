@@ -9,5 +9,5 @@ venue: 'The Journal of Physical Chemistry C'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: "Arlindo, E. P. S., Lucindo, J. A., Bastos, C. M. O., Emmel, P. D., & Orlandi, M. O. (2012). Electrical and Optical Properties of Conductive and Transparent ITO@PMMA Nanocomposites. The Journal of Physical Chemistry C, 116(22), 12946-12952."
+citation: 'Arlindo, E. P. S., Lucindo, J. A., Bastos, C. M. O., Emmel, P. D., & Orlandi, M. O., "Electrical and Optical Properties of Conductive and Transparent ITO@PMMA Nanocomposites," <i>The Journal of Physical Chemistry C</i> <b>116</b>(22), 12946-12952 (2012).'
 ---
