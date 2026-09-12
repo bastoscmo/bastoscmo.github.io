@@ -7,7 +7,7 @@ excerpt: "Computational Materials Physicist — predicting new materials before 
 
 <div class="intro-banner">
   <h1>Dr. Carlos Maciel de Oliveira Bastos</h1>
-  <p>Computational Materials Physicist</p>
+  <p>Computational Materials Science</p>
 </div>
 
 I am **Dr. Carlos Maciel de Oliveira Bastos**, a computational physicist specializing in condensed matter and materials science. I currently hold a postdoctoral fellowship, supported by CAPES, at the Institute of Physics, University of Brasília (UnB), and serve as a collaborative researcher at the International Center of Physics (UnB).
