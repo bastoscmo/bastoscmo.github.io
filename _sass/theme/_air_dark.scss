@@ -2,20 +2,28 @@
    Dark skin, based on the Minimal Mistakes skin
    ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #00adb5;
+/* Color codes used for the theme
+   "Quantum Indigo + Copper" — a lighter indigo for contrast against the dark
+   background, with a warm amber accent (buttons, badges, hover states). */
+$primary-color              : #7c8fd0;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#000, $primary-color, 50%);
+$accent-color               : #e0a458;
+$dark-accent-color          : mix(#000, $accent-color, 20%);
 
-$background                 : #252a34;
+$background                 : #14171c;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #eaeaea;
+$text                       : #eef0f2;
 $link                       : mix($primary-color, $text, 40%);
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 $footer                     : mix(#000, $background, 30%);
+
+// Amber reads best with dark text on top (rather than the white text buttons
+// use elsewhere), since white-on-amber falls short of AA contrast.
+$accent-contrast-color      : $background;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -52,4 +60,7 @@ html[data-theme="dark"] {
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-primary-color};
     --global-thead-color                : #{$background-lighter};
+    --global-accent-color               : #{$accent-color};
+    --global-accent-color-hover         : #{$dark-accent-color};
+    --global-accent-contrast-color      : #{$accent-contrast-color};
 }

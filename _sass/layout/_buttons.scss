@@ -65,6 +65,17 @@
     background-color: transparent;
   }
 
+  /* primary (accent) */
+
+  &--primary {
+    color: var(--global-accent-contrast-color) !important;
+    background-color: var(--global-accent-color);
+
+    &:hover {
+      background-color: var(--global-accent-color-hover);
+    }
+  }
+
   /* information */
 
   &--info {

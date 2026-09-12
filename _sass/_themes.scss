@@ -39,8 +39,10 @@ $type-size-6                : 0.75em;   // ~12px
 $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
+$header-serif               : "Source Serif 4", Georgia, Times, serif;
+
 $global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
+$header-font-family         : $header-serif;
 $caption-font-family        : $serif;
 
 /* ==========================================================================

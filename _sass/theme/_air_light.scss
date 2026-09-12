@@ -2,17 +2,22 @@
    Air skin, based on the Minimal Mistakes skin
    ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #0092ca;
+/* Color codes used for the theme
+   "Quantum Indigo + Copper" — indigo evokes band-structure/quantum-physics
+   diagrams, copper is the warm accent (buttons, badges, hover states). */
+$primary-color              : #34467c;
 $dark-primary-color         : mix(#000, $primary-color, 40%);
 $darker-primary-color       : mix(#000, $primary-color, 60%);
 $light-primary-color        : mix(#000, $primary-color, 50%);
+$accent-color               : #a35b1a;
+$dark-accent-color          : mix(#000, $accent-color, 20%);
+$accent-contrast-color      : #fff;
 
-$background                 : #eeeeee;
+$background                 : #f6f5f2;
 $background-light           : mix(#fff, $background, 20%);
 $background-lighter         : mix(#fff, $background, 90%);
-$text                       : #222831;
-$link                       : #393e46;
+$text                       : #1e2430;
+$link                       : $primary-color;
 $link-dark                  : mix(#000, $link, 25%);
 $link-light                 : mix(#fff, $link, 25%);
 $footer                     : $primary-color;
@@ -52,4 +57,7 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color                 : #{$text};
     --global-text-color-light           : #{$light-primary-color};
     --global-thead-color                : #{$background-lighter};
+    --global-accent-color               : #{$accent-color};
+    --global-accent-color-hover         : #{$dark-accent-color};
+    --global-accent-contrast-color      : #{$accent-contrast-color};
 }
