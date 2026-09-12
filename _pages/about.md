@@ -10,21 +10,24 @@ excerpt: "Computational Materials Physicist — predicting new materials before 
   <p>Computational Materials Physicist</p>
 </div>
 
-I am **Carlos Maciel de Oliveira Bastos**, physicist and researcher at the International Center of Physics at the University of Brasília (UnB).
+I am **Dr. Carlos Maciel de Oliveira Bastos**, a computational physicist specializing in condensed matter and materials science. I currently hold a postdoctoral fellowship, supported by CAPES, at the Institute of Physics, University of Brasília (UnB), and serve as a collaborative researcher at the International Center of Physics (UnB).
 
-I use fundamental physics :atom_symbol: and the power of high-performance computing :computer: to simulate the behavior of atoms and electrons, seeking to predict and discover new properties before a material is even synthesized in a lab.
+My research combines first-principles methods — primarily Density Functional Theory (DFT) — with high-performance computing to investigate the structural, electronic, optical, and excitonic properties of low-dimensional materials. Recent work spans two-dimensional transition metal dichalcogenides, MXenes and MOenes, halide and antiperovskites, carbon allotropes, and metallic monolayers, with applications in photovoltaics, catalysis, and optoelectronics. The central aim is to predict the stability and functional properties of new materials computationally, ahead of experimental synthesis.
 
-Through first-principles methods (like Density Functional Theory - DFT) and atomistic simulations, my work aims to accelerate the discovery of innovative materials :microscope: to solve complex challenges—whether in the search for new energy sources, the development of more efficient electronics, or the creation of more effective catalysts.
+I hold a Ph.D. (2019) and M.Sc. (2015) in Physics from the University of São Paulo (USP) — where my doctoral research addressed the structural, energetic, and electronic properties of 2D materials — and a B.Sc. in Physics from the Federal University of São Carlos (UFSCar, 2012). My graduate studies were supported by CAPES and CNPq fellowships.
+
+Beyond peer-reviewed research, I develop and maintain open-source computational tools for the materials-simulation community — including STB-SUITE, a command-line toolkit for SIESTA DFT workflows — and teach courses on electronic-structure methods.
 
 ---
 
-### Explore my work
+### Explore this site
 
-This site serves as a portfolio of my academic and research activities. Please feel free to browse the sections:
+This site documents my academic and research activities:
 
-* :page_facing_up: **[Publications](https://bastoscmo.github.io/publications/)**: See my scientific articles and contributions to the field.
-* :microphone: **[Talks](https://bastoscmo.github.io/talks/)**: Access slides and posters from conferences and seminars.
-* :teacher: **[Teaching](https://bastoscmo.github.io/teaching/)**: Find information on the courses I teach and support materials.
-* :paperclip: **[CV](https://bastoscmo.github.io/cv/)**: My complete curriculum vitae for more details.
+* **[Publications](/publications/)** — peer-reviewed articles and contributions to the field
+* **[Talks](/talks/)** — slides and materials from conference presentations and seminars
+* **[Teaching](/teaching/)** — courses taught and accompanying materials
+* **[CV](/cv/)** — full academic curriculum vitae
+* **[Development](/development/)** — open-source tools for computational materials science
 
-If you are interested in computational physics, materials science, or would like to discuss a potential collaboration, please send me email: [bastoscmo@gmail.com](mailto:bastoscmo@gmail.com)! :email:
+For inquiries regarding collaboration, research opportunities, or academic matters, please contact me at [carlos.bastos@unb.br](mailto:carlos.bastos@unb.br).
