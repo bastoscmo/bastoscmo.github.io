@@ -40,12 +40,12 @@ Edit `assets/js/_main.js`, not `main.min.js` directly — it's generated. Note `
 
 Content lives in Jekyll collections, each a directory of Markdown files with YAML front matter, split into per-year subdirectories (e.g. `_publications/2025/`, `_talks/2025/`, `_teaching/2025/`, `_posts/2026/`). **This year-subdirectory layout is a convention specific to this fork, not stock Academic Pages**, and it is not fully honored by the tooling — see "Known gotchas" below.
 
-- `_publications/` — journal articles / conference papers, rendered via `_pages/publications.md`. `category:` front matter (`manuscripts`, `conferences`, `books`) must match a key under `publication_category` in `_config.yml`, which controls the heading grouping on the page.
+- `_publications/` — journal articles / conference papers, rendered via `_pages/publications.html`. `category:` front matter (`manuscripts`, `conferences`, `books`) must match a key under `publication_category` in `_config.yml`, which controls the heading grouping on the page. The page also has a client-side search box (`#pub-search-input`, plain JS at the bottom of the file, no library) that filters on the full rendered text of each `.list__item` — title, authors, venue, year are all searchable since they're all in the DOM already; category headings auto-hide when nothing under them matches.
 - `_talks/` — talks/seminars, rendered with `_layouts/talk.html`.
 - `_teaching/` — courses taught.
 - `_posts/` — blog posts, standard Jekyll date-prefixed filenames, listed at `/year-archive/`.
 - `_portfolio/` — portfolio/project entries (this one is *not* split by year — still flat).
-- `_pages/` — standalone pages (`cv.md`, `about.md`, `publications.md`, `talks.md`, `teaching.md`, `development.md` + its per-project subpages, taxonomy archive pages, etc.). Pages are only picked up because `_config.yml`'s `include:` explicitly lists `_pages`.
+- `_pages/` — standalone pages (`cv.md`, `about.md`, `publications.html`, `talks.html`, `teaching.html`, `development.md` + its per-project subpages, taxonomy archive pages, etc.). Pages are only picked up because `_config.yml`'s `include:` explicitly lists `_pages`.
 
 Every content file needs a `permalink:` plus whatever front matter that collection's layout expects (e.g. `venue`, `citation`, `excerpt` for publications; `location`, `venue`, `talk_type` for talks — `location` specifically is what the talk-map geocoder reads). Copy an existing file in the same collection/year rather than starting from scratch. New files go in the current year's subdirectory (create it if it doesn't exist yet).
 
@@ -74,10 +74,15 @@ Fixed by bumping `talkmap/map.html` to Leaflet **1.9.4** (cdnjs) and re-vendorin
 ## Site-wide configuration
 
 - `_config.yml` — author/social-profile sidebar data (`author:` block), `site_theme` variant (`"air"` vs `"default"`), `publication_category` headings, comments provider, analytics, Jekyll `collections:`/`defaults:` (which layout + which of `author_profile`/`share`/`comments`/`related` each collection gets by default). **Not** hot-reloaded by `jekyll serve` — restart after editing.
+- Analytics is wired up via the theme's `provider: "custom"` slot (`analytics.provider` in `_config.yml`) rather than one of the built-in `google*` providers — the actual snippet (GoatCounter, cookie-less) lives in `_includes/analytics-providers/custom.html`. GoatCounter deliberately no-ops on `localhost` (logs `goatcounter: not counting because of: localhost` to the console) — that's expected, not a wiring bug; it only counts real visits on the deployed domain.
 - `_data/navigation.yml` — the top nav (masthead) links and their order. This is where to add/remove/reorder nav items, **not** `_config.yml`.
 - `_data/ui-text.yml` — locale-keyed UI strings (labels like "Read more", meta labels) used throughout `_includes/`.
 - `_data/authors.yml` — optional per-post/page author overrides (separate from the single site-wide `author:` block in `_config.yml`); currently empty scaffolding, unused since every page is by the one site author.
 - `_data/comments/` — Staticman-generated comment YAML files, one subfolder per commented post/page slug; not something to hand-author.
+
+### Homepage banner
+
+`_pages/about.md` opens with a hand-rolled `.intro-banner` div (raw HTML in the Markdown body, styled in `_sass/layout/_page.scss`) rather than the theme's built-in `header.overlay_color`/`page__hero.html` mechanism. That's deliberate: `.sidebar` is `position: fixed` once `author_profile: true` is set (see `_sass/layout/_sidebar.scss`), so it anchors to the viewport top regardless of a hero banner's height and visibly overlaps it — the stock hero mechanism assumes no sidebar. If you want a full-width hero on a page that also has `author_profile: true`, you'll need to solve that overlap first (e.g. push the sidebar down by the hero's height); don't just add `header.overlay_color` and assume it'll look right.
 
 ### SEO / social preview
 
