@@ -49,23 +49,67 @@ author_profile: true
   </div>
 
 <hr>
+
+<div class="pub-search-wrap">
+  <input type="search" id="pub-search-input" class="pub-search-input" placeholder="Search publications by title, author, venue, or year…" aria-label="Search publications">
+  <p id="pub-search-count" class="pub-search-count"></p>
+</div>
+
 <!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
+    <div class="pub-category">
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="pub-category-title">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
+    </div>
   {% endfor %}
 {% else %}
+  <div class="pub-category">
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
+  </div>
 {% endif %}
+
+<script>
+(function () {
+  var input = document.getElementById('pub-search-input');
+  var countEl = document.getElementById('pub-search-count');
+  if (!input) { return; }
+
+  var categories = Array.prototype.slice.call(document.querySelectorAll('.pub-category'));
+  var items = Array.prototype.slice.call(document.querySelectorAll('.pub-category .list__item'));
+
+  function filter() {
+    var query = input.value.trim().toLowerCase();
+    var visibleCount = 0;
+
+    items.forEach(function (item) {
+      var match = query === '' || item.textContent.toLowerCase().indexOf(query) !== -1;
+      item.hidden = !match;
+      if (match) { visibleCount++; }
+    });
+
+    categories.forEach(function (category) {
+      var visibleInCategory = category.querySelectorAll('.list__item:not([hidden])').length;
+      var title = category.querySelector('.pub-category-title');
+      var rule = title ? title.nextElementSibling : null;
+      if (title) { title.hidden = visibleInCategory === 0; }
+      if (rule && rule.tagName === 'HR') { rule.hidden = visibleInCategory === 0; }
+    });
+
+    countEl.textContent = query === '' ? '' : (visibleCount + (visibleCount === 1 ? ' result' : ' results'));
+  }
+
+  input.addEventListener('input', filter);
+})();
+</script>
