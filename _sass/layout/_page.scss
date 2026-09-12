@@ -107,6 +107,27 @@
   }
 }
 
+/* Homepage intro banner (kept inside the content column so it doesn't
+   collide with the fixed sidebar the way a full-width page__hero does) */
+.intro-banner {
+  margin-bottom: 2em;
+  padding: 1.5em 2em;
+  background-color: #34467c;
+  border-radius: $border-radius;
+
+  h1 {
+    margin: 0 0 0.35em;
+    color: #fff;
+    font-size: $type-size-3;
+  }
+
+  p {
+    margin: 0;
+    color: var(--global-accent-color);
+    font-size: $type-size-4;
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;

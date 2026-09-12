@@ -2,7 +2,13 @@
 layout: single
 permalink: /
 author_profile: true
+excerpt: "Computational Materials Physicist — predicting new materials before they're synthesized."
 ---
+
+<div class="intro-banner">
+  <h1>Dr. Carlos Maciel de Oliveira Bastos</h1>
+  <p>Computational Materials Physicist — predicting new materials before they're synthesized.</p>
+</div>
 
 I am **Carlos Maciel de Oliveira Bastos**, physicist and researcher at the International Center of Physics at the University of Brasília (UnB).
 
