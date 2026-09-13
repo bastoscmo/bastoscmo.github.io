@@ -1,5 +1,10 @@
 var addressPoints = [
   [
+    "Entangled Interlocked Diamond-Like (Diamondiynes) Lattices<br />EOSBF 2026 \u2014 Encontro de Outono da Sociedade Brasileira de F\u00edsica; Cuiab\u00e1, Brazil",
+    -15.5986686,
+    -56.0991301
+  ],
+  [
     "A Complete Optoelectronic and Thermodynamic Characterization for MoWSe2 Alloy: A Data-Driven Workflow Approach<br />XXIII B-MRS Meeting; Salvador, Brazil",
     -12.9822499,
     -38.4812772
